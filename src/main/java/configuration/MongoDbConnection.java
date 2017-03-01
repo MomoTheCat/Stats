@@ -10,6 +10,7 @@ import com.mongodb.client.MongoDatabase;
  */
 public class MongoDbConnection {
 
+
     public static MongoDbConnection mongoDbConnection;
 
     private MongoDatabase db;

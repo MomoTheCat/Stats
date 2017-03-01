@@ -1,5 +1,7 @@
 package configuration;
 
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;
@@ -12,7 +14,8 @@ public class YamlConfig {
 
     public static final String CONFIG_FILE_NAME = "app.yml";
 
-    private static final Logger LOG = Logger.getLogger(String.valueOf(YamlConfig.class));
+    @Inject
+    private Logger LOG;
 
     private static YamlConfig yamlConfig;
     private YamlInfo yamlInfo;
