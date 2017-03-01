@@ -1,0 +1,2 @@
+mongoUri: mongodb://<LOGIN>:<PASSWORD>@ds041160.mlab.com:41160/satellite
+networkUri: https://api.citybik.es/v2/networks/lodzki-rower-publiczny
